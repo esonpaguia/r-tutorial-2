@@ -1,3 +1,5 @@
+# You can give a name to the elements of a vector with the names() function. 
+
 # Poker winnings from Monday to Friday
 poker_vector <- c(140, -50, 20, -120, 240)
 

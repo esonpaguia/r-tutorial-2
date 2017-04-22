@@ -3,14 +3,32 @@
 # Boolean values (TRUE or FALSE) are called logical.
 # Text (or string) values are called characters.
 
-# Change my_numeric to be 42
+# Numeric values default to double
 my_numeric <- 42
+typeof(my_numeric)
+class(my_numeric)
 is.numeric(my_numeric)
+is.integer(my_numeric)
+is.double(my_numeric)
 
-# Change my_character to be "universe"
+# Put an "L" to set it as integer
+my_numeric <- 42L
+typeof(my_numeric)
+class(my_numeric)
+is.numeric(my_numeric)
+is.integer(my_numeric)
+is.double(my_numeric)
+
+# Use quotes to set a character
 my_character <- "universe"
+typeof(my_numeric)
 is.character(my_character)
 
-# Change my_logical to be FALSE
-my_logical <- F
-is.logical(my_logical)
+# Use TRUE or T, FALSE or F for logival variables
+my_logical_false <- F
+typeof(my_logical_false)
+is.logical(my_logical_false)
+
+my_logical_true <- TRUE
+typeof(my_logical_true)
+is.logical(my_logical_true)

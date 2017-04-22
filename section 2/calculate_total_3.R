@@ -1,3 +1,5 @@
+# The "sum()" function calculates the sum of all elements of a vector. 
+
 # Poker and roulette winnings from Monday to Friday:
 poker_vector <- c(140, -50, 20, -120, 240)
 roulette_vector <- c(-24, -50, 100, -350, 10)
@@ -7,12 +9,14 @@ names(roulette_vector) <- days_vector
 
 # Total winnings with poker
 total_poker <- sum(poker_vector)
+total_poker
 
 # Total winnings with roulette
 total_roulette <-  sum(roulette_vector)
+total_roulette
 
 # Total winnings overall
-total_week <- total_poker + total_roulette
+total_poker + total_roulette
 
-# Print out total_week
-total_week
+# Compare winnings
+total_poker > total_roulette

@@ -3,11 +3,12 @@ my_numeric <- 42
 my_character <- "universe"
 my_logical <- FALSE 
 
-# Check class of my_numeric
+# You can use "typeof()" or "class()"
+typeof(my_numeric)
 class(my_numeric)
 
-# Check class of my_character
+typeof(my_character)
 class(my_character)
 
-# Check class of my_logical
+typeof(my_logical)
 class(my_logical)
