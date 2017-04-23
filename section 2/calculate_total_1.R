@@ -7,10 +7,3 @@
 c(1, 2, 3) + c(4, 5, 6)
 c(1 + 4, 2 + 5, 3 + 6)
 c(5, 7, 9)
-
-# You can do the calculations with variables that represent vectors:
-A_vector <- c(1, 2, 3)
-B_vector <- c(4, 5, 6)
-
-A_vector + B_vector
-
