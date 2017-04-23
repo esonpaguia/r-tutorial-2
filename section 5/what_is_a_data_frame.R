@@ -1,32 +1,26 @@
+# Data frames are two-dimensional objects that can hold numeric, character or logical values. 
+# Within a column all elements have the same data type, but different columns can be of 
+# different data type.
+# 
 # A data frame has the variables of a data set as columns and the observations as rows. 
 # 
-# head() function shows the first observations of a data frame. 
-#
-# tail() function shows the last observations of a data frame.
-#
-# str() shows you the structure of your data set. For a data frame it tells you:
-#
-# - The total number of observations (e.g. 32 car types)
-# - The total number of variables (e.g. 11 car features)
-# - A full list of the variables names (e.g. mpg, cyl ... )
-# - The data type of each variable (e.g. num)
-# - The first observations
+# Data frames can consist different datatypes, unlike vectors and matrices.
 
-
-# Ignore these lines for now - BEGIN
+# Crosscut - BEGIN
 library(rstudioapi)
 setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 getwd()
 source("mtcars_dataset.R")
-# Ignore these lines for now - END
+# Crosscut - END
 
 mtcars
 
-head(mtcars)
-tail(mtcars)
+head(mtcars) # returns the first part of an object
+tail(mtcars) # returns the last part of an object
 
-nrow(mtcars)
-ncol(mtcars)
+nrow(mtcars) # number of rows
+ncol(mtcars) # number of columns
 
-str(mtcars)
-summary(mtcars)
+str(mtcars) # display the structure of an object
+
+summary(mtcars) # summarize an object

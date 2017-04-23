@@ -1,12 +1,12 @@
 # Similar to vectors, the standard operators like +, -, /, *, etc. 
 # work in an element-wise way on matrices in R.
 
-# Ignore these lines for now - BEGIN
+# Crosscut - BEGIN
 library(rstudioapi)
 setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 getwd()
 source("add_rows.R")
-# Ignore these lines for now - END
+# Crosscut - END
 
 all_wars_matrix
 

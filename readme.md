@@ -12,9 +12,8 @@
 * [Concatenate](section%201/concatenate.R)
 
 ## Section 2: Vectors
-* Create a vector
-  * [Everything in R is a vector](section%202/create_a_vector_1.R)
-  * [c() function](section%202/create_a_vector_2.R)
+* [What is a vector?](section%202/what_is_a_vector.R)
+* [c() function](section%202/create_a_vector.R)
 * Naming a vector
   * [Using names() function](section%202/naming_a_vector_1.R)
   * [Assigned vector names](section%202/naming_a_vector_2.R)
@@ -31,6 +30,7 @@
 
 ## Section 3: Matrices
 * [What is a matrix?](section%203/what_is_a_matrix.R)
+* [matrix() function](section%203/create_a_matrix.R)
 * [Create a matrix from a group of vectors](section%203/create_a_matrix_from_a_group_of_vectors.R)
 * [Naming a matrix?](section%203/naming_a_matrix.R)
 * [rowSums() function](section%203/calculate_rows.R)
@@ -42,10 +42,9 @@
   * [Calculating matrices](section%203/arithmetics_in_matrices_2.R)
 
 ## Section 4: Factors
-* What is a factor?
-  * [Definition](section%204/what_is_a_factor_1.R)
-  * [Create a factor](section%204/what_is_a_factor_2.R)
-  * [Types of categorical variables](section%204/what_is_a_factor_3.R)
+* [What is a factor?](section%204/what_is_a_factor.R)
+* [factor() function](section%204/create_a_factor.R)
+* [Types of categorical variables](section%204/types_of_categorical_variables.R)
 * [Factor levels](section%204/factor_levels.R)
 * [Summarizing a factor](section%204/summarizing_a_factor.R)
 * [Comparing nominal factors](section%204/comparing_nominal_factors.R)
@@ -54,5 +53,11 @@
 
 ## Section 5: Data frames
 * [What is a dataframe?](section%205/what_is_a_data_frame.R)
+* [Selection of data frame elements](section%205/selection_of_data_frame_elements.R)
+* [subset() function](section%205/subset.R)
 
 ## Section 6: Lists
+* [What is a list?](section%206/what_is_a_list.R)
+* [Creat a list](section%206/create_a_list.R)
+* [Selecting elements from a list](section%206/selecting_elements_from_a_list.R)
+* [Adding to a list](section%206/adding_to_a_list.R)

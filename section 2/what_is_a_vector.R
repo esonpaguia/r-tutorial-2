@@ -1,6 +1,9 @@
-# Everything in R is a vector.
 # Vectors are one-dimension arrays that can hold numeric data, character data, 
-# or logical data. In other words, a vector is a simple tool to store data. 
+# or logical values In other words, a vector is a simple tool to store data. 
+#
+# The elements in a vector all have the same data type.
+#
+# Everything in R is a vector.
 
 # Define the variable vegas
 vegas <- "Go!"
