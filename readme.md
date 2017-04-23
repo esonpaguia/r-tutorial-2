@@ -30,7 +30,7 @@
   * [Selection by comparison](section%202/selection_by_comparison.R)
 
 ## Section 3: Matrices
-* [What is a matrix?](section%203/matrix.R)
+* [What is a matrix?](section%203/what_is_a_matrix.R)
 * [Create a matrix from a group of vectors](section%203/create_a_matrix_from_a_group_of_vectors.R)
 * [Naming a matrix?](section%203/naming_a_matrix.R)
 * [rowSums() function](section%203/calculate_rows.R)
@@ -42,8 +42,17 @@
   * [Calculating matrices](section%203/arithmetics_in_matrices_2.R)
 
 ## Section 4: Factors
-* [What is a factor?](section%203/factor.R)
+* What is a factor?
+  * [Definition](section%204/what_is_a_factor_1.R)
+  * [Create a factor](section%204/what_is_a_factor_2.R)
+  * [Types of categorical variables](section%204/what_is_a_factor_3.R)
+* [Factor levels](section%204/factor_levels.R)
+* [Summarizing a factor](section%204/summarizing_a_factor.R)
+* [Comparing nominal factors](section%204/comparing_nominal_factors.R)
+* [Ordinal factors](section%204/ordinal_factors.R)
+* [Comparing ordinal factors](section%204/comparing_ordinal_factors.R)
 
 ## Section 5: Data frames
+* [What is a dataframe?](section%205/what_is_a_dataframe.R)
 
 ## Section 6: Lists
