@@ -1,7 +1,8 @@
-# R Tutorial 2
+# Introduction to R
 
-## Section 1
-* [Arithmetic operations](section%201/arithmetics.R)
+## Section 1: Basics
+* [Arithmetic operators](section%201/arithmetics.R)
+* [Logical operators](section%201/logical_operators.R)
 * Variable assignment
   * [Assign a literal value](section%201/variable_assignment_1.R)
   * [Assign a nonliteral value](section%201/variable_assignment_2.R)
@@ -10,7 +11,7 @@
 * [Non-numeric value](section%201/non_numeric_in_binary_operator.R)
 * [Concatenate](section%201/concatenate.R)
 
-## Section 2
+## Section 2: Vectors
 * Create a vector
   * [Everything in R is a vector](section%202/create_a_vector_1.R)
   * [c() function](section%202/create_a_vector_2.R)
@@ -22,6 +23,26 @@
   * [Calculations with variables that represent vectors](section%202/calculate_total_2.R)
   * [sum() function](section%202/calculate_total_3.R)
 * Vector selection
-  * [Single element from a vector](section%202/vector_selection_1.R)
-  * [Multiple elements from a vector](section%202/vector_selection_2.R)
-  * [colon operator](section%202/vector_selection_3.R)
+  * [Selecting a single element](section%202/vector_selection_1.R)
+  * [Selecting multiple elements](section%202/vector_selection_2.R)
+  * [Using the colon operator](section%202/vector_selection_3.R)
+  * [Using the names of the vector](section%202/vector_selection_4.R)
+  * [Selection by comparison](section%202/selection_by_comparison.R)
+
+## Section 3: Matrices
+* [What is a matrix?](section%203/matrix.R)
+* [Create a matrix from a group of vectors](section%203/create_a_matrix_from_a_group_of_vectors.R)
+* [Naming a matrix?](section%203/naming_a_matrix.R)
+* [rowSums() function](section%203/calculate_rows.R)
+* [cbind() function](section%203/add_columns.R)
+* [rbind() function](section%203/add_rows.R)
+* [colSums() function](section%203/calculate_columns.R)
+* Arithmetic operations in matrices
+  * [Calcating each element](section%203/arithmetics_in_matrices_1.R)
+  * [Calculating 2 matrices](section%203/arithmetics_in_matrices_2.R)
+
+## Section 4: Factors
+
+## Section 5: Data frames
+
+## Section 6: Lists
