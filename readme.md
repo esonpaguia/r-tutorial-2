@@ -38,10 +38,11 @@
 * [rbind() function](section%203/add_rows.R)
 * [colSums() function](section%203/calculate_columns.R)
 * Arithmetic operations in matrices
-  * [Calcating each element](section%203/arithmetics_in_matrices_1.R)
-  * [Calculating 2 matrices](section%203/arithmetics_in_matrices_2.R)
+  * [Calculating each element](section%203/arithmetics_in_matrices_1.R)
+  * [Calculating matrices](section%203/arithmetics_in_matrices_2.R)
 
 ## Section 4: Factors
+* [What is a factor?](section%203/factor.R)
 
 ## Section 5: Data frames
 

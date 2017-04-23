@@ -2,7 +2,12 @@
 # my_matrix1 * my_matrix2 creates a matrix where each element is the 
 # product of the corresponding elements in my_matrix1 and my_matrix2
 
+# Ignore these lines for now - BEGIN
+library(rstudioapi)
+setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
+getwd()
 source("add_rows.R")
+# Ignore these lines for now - END
 
 all_wars_matrix
 

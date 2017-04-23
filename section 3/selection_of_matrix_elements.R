@@ -12,7 +12,12 @@
 # - my_matrix[,1] selects all elements of the first column.
 # - my_matrix[1,] selects all elements of the first row.
 
+# Ignore these lines for now - BEGIN
+library(rstudioapi)
+setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
+getwd()
 source("add_rows.R")
+# Ignore these lines for now - END
 
 # all_wars_matrix is available in your workspace
 all_wars_matrix
