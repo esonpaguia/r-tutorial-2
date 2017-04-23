@@ -53,6 +53,6 @@
 * [Comparing ordinal factors](section%204/comparing_ordinal_factors.R)
 
 ## Section 5: Data frames
-* [What is a dataframe?](section%205/what_is_a_dataframe.R)
+* [What is a dataframe?](section%205/what_is_a_data_frame.R)
 
 ## Section 6: Lists
