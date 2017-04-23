@@ -17,7 +17,7 @@
 * Naming a vector
   * [Using names() function](section%202/naming_a_vector_1.R)
   * [Assigned vector names](section%202/naming_a_vector_2.R)
-* Calculate
+* Calculations in vectors
   * [Arithmetic operations on vectors](section%202/calculate_total_1.R)
   * [Calculations with variables that represent vectors](section%202/calculate_total_2.R)
   * [sum() function](section%202/calculate_total_3.R)
